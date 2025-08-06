@@ -1,0 +1,21 @@
+{
+  "name": "darkj-theme",
+  "displayName": "DarkJ Theme",
+  "description": "My personalized version of IntelliJ Darcula",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.102.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "DarkJ",
+        "uiTheme": "vs-dark",
+        "path": "./themes/DarkJ-color-theme.json"
+      }
+    ]
+  }
+}
