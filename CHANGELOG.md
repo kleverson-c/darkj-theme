@@ -20,3 +20,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [1.1.2]
 
 - Fixes label.
+
+## [1.1.3]
+
+- Adds rule for variable.other.object.property

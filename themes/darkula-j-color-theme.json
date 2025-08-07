@@ -154,12 +154,6 @@
       }
     },
     {
-      "scope": "meta.structure.dictionary.key.python",
-      "settings": {
-        "foreground": "#9876AA"
-      }
-    },
-    {
       "scope": "meta.diff.header",
       "settings": {
         "foreground": "#CC7832"
@@ -211,15 +205,6 @@
       }
     },
     {
-      "scope": [
-        "support.function.git-rebase",
-        "support.function.magic.python"
-      ],
-      "settings": {
-        "foreground": "#9876AA"
-      }
-    },
-    {
       "scope": "constant.sha.git-rebase",
       "settings": {
         "foreground": "#B5CEA8"
@@ -240,15 +225,6 @@
     },
     {
       "scope": [
-        "variable.language.special.self.python",
-        "variable.parameter.function.language.special.self.python"
-      ],
-      "settings": {
-        "foreground": "#9876AA"
-      }
-    },
-    {
-      "scope": [
         "entity.name.function.python",
         "meta.function-call.generic.python",
         "method.declaration",
@@ -261,16 +237,22 @@
     },
     {
       "scope": [
-        "support.type.vendored.property-name",
-        "support.type.property-name",
-        "variable.css",
-        "variable.scss",
-        "variable.other.less",
-        "variable.other.property",
-        "support.variable.property.dom",
         "entity.other.inherited-class",
+        "meta.object-literal.key entity.name.function",
         "meta.object-literal.key",
-        "meta.object-literal.key entity.name.function"
+        "meta.structure.dictionary.key.python",
+        "support.function.git-rebase",
+        "support.function.magic.python",
+        "support.type.property-name",
+        "support.type.vendored.property-name",
+        "support.variable.property.dom",
+        "variable.css",
+        "variable.language.special.self.python",
+        "variable.other.less",
+        "variable.other.object.property",
+        "variable.other.property",
+        "variable.parameter.function.language.special.self.python",
+        "variable.scss",
       ],
       "settings": {
         "foreground": "#9876AA"
