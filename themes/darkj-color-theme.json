@@ -5,7 +5,7 @@
   "colors": {
     "editor.background": "#212122",
     "editor.foreground": "#d4d4d4",
-    "editor.inactiveSelectionBackground": "#3a3d41",
+    "editor.inactiveSelectionBackground": "#3a3d4180",
     "editor.lineHighlightBackground": "#2a2a2b",
     "editor.selectionHighlightBackground": "#add6ff26",
     "list.dropBackground": "#383b3d",
