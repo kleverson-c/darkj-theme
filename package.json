@@ -2,7 +2,7 @@
   "name": "darkj-theme",
   "displayName": "DarkJ Theme",
   "description": "My personalized version of IntelliJ Darcula",
-  "version": "1.0",
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.102.0"
   },
