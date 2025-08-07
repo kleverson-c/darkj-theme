@@ -1,6 +1,7 @@
 {
 	"$schema": "vscode://schemas/color-theme",
 	"type": "dark",
+	"semanticHighlighting": true,
 	"colors": {
 		"editor.background": "#212122",
 		"editor.foreground": "#d4d4d4",
@@ -10,7 +11,22 @@
 		"list.dropBackground": "#383b3d",
 		"sideBar.background": "#1e1e1f",
 	},
+	"semanticTokenColors": {
+		"method.declaration": "#ffc66d",
+		"annotationMember":"#D4D4D4",
+		"enumMember": "#9876AA",
+		"property": "#9876AA",
+		"annotation": "#bbb529",
+		"typeParameter": "#507874",
+		"class.typeArgument": "#D4D4D4"
+	},
 	"tokenColors": [
+		{
+			"scope": "punctuation.definition.annotation.java",
+			"settings": {
+				"foreground": "#bbb529"
+			}
+		},
 		{
 			"scope": "emphasis",
 			"settings": {
@@ -286,29 +302,6 @@
 			}
 		},
 		{
-			"scope": [
-				"variable.other.object",
-				"variable.other.object.property",
-				"support.class.dom",
-				"meta.function-call",
-				"entity.name.type.module"
-			],
-			"settings": {
-				"foreground": "#A9B7C6"
-			}
-		},
-		{
-			"scope": [
-				"variable.other.readwrite",
-				"variable.other.constant.ts",
-				"variable.parameter",
-				"variable.other.readwrite.alias"
-			],
-			"settings": {
-				"foreground": "#A9B7C6"
-			}
-		},
-		{
 			"scope": "keyword",
 			"settings": {
 				"foreground": "#CC7832",
@@ -368,15 +361,6 @@
 			}
 		},
 		{
-			"scope": [
-				"storage.modifier.import.java",
-				"storage.modifier.package.java"
-			],
-			"settings": {
-				"foreground": "#D4D4D4"
-			}
-		},
-		{
 			"scope": "variable.language",
 			"settings": {
 				"foreground": "#CC7832",
@@ -420,7 +404,7 @@
 		},
 		{
 			"scope": [
-				"entity.name.function",
+				"method.declaration",
 				"support.function",
 				"support.constant.handlebars"
 			],
@@ -429,44 +413,9 @@
 			}
 		},
 		{
-			"scope": [
-				"meta.return-type",
-				"support.class",
-				"support.type",
-				"entity.name.type",
-				"entity.name.class",
-				"storage.type.cs",
-				"storage.type.generic.cs",
-				"storage.type.modifier.cs",
-				"storage.type.variable.cs",
-				"storage.type.annotation.java",
-				"storage.type.generic.java",
-				"storage.type.java",
-				"storage.type.object.array.java",
-				"storage.type.primitive.array.java",
-				"storage.type.primitive.java",
-				"storage.type.token.java",
-				"storage.type.groovy",
-				"storage.type.annotation.groovy",
-				"storage.type.parameters.groovy",
-				"storage.type.generic.groovy",
-				"storage.type.object.array.groovy",
-				"storage.type.primitive.array.groovy",
-				"storage.type.primitive.groovy"
-			],
+			"scope": [],
 			"settings": {
 				"foreground": "#4EC9B0"
-			}
-		},
-		{
-			"scope": [
-				"support.class",
-				"entity.name.class",
-				"support.type",
-				"entity.name.type"
-			],
-			"settings": {
-				"foreground": "#D4D4D4"
 			}
 		},
 		{
@@ -475,18 +424,6 @@
 			],
 			"settings": {
 				"foreground": "#A9B7C6"
-			}
-		},
-		{
-			"scope": [
-				"meta.type.cast.expr",
-				"meta.type.new.expr",
-				"support.constant.math",
-				"support.constant.dom",
-				"support.constant.json"
-			],
-			"settings": {
-				"foreground": "#4EC9B0"
 			}
 		},
 		{
@@ -503,14 +440,6 @@
 			],
 			"settings": {
 				"foreground": "#A9B7C6"
-			}
-		},
-		{
-			"scope": [
-				"variable"
-			],
-			"settings": {
-				"foreground": "#9876AA"
 			}
 		},
 		{
@@ -573,13 +502,12 @@
 			}
 		},
 		{
-			"scope": "storage.type.primitive.java",
-			"settings": {
-				"foreground": "#D4D4D4"
-			}
-		},
-		{
-			"scope": "storage.type.java",
+			"scope": [
+				"storage.type.primitive.java",
+				"storage.type.java",
+				"storage.modifier.import.java",
+				"storage.modifier.package.java",
+			],
 			"settings": {
 				"foreground": "#D4D4D4"
 			}
