@@ -16,3 +16,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [1.1.1]
 
 - Renames display name again.
+
+## [1.1.2]
+
+- Fixes label.
