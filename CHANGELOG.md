@@ -10,12 +10,12 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [1.1.0]
 
-- Adds icon
-- Renames to Darkula-J Theme to avoid conflicts on marketplace
+- Added icon
+- Renamed to Darkula-J Theme to avoid conflicts on marketplace
 
 ## [1.1.1]
 
-- Renames display name again.
+- Renamed display name again.
 
 ## [1.1.2]
 
@@ -23,4 +23,8 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [1.1.3]
 
-- Adds rule for variable.other.object.property
+- Added rule for variable.other.object.property
+
+## [1.1.4]
+
+- Added rule for meta.method-call
