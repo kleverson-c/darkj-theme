@@ -12,3 +12,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Adds icon
 - Renames to Darkula-J Theme to avoid conflicts on marketplace
+
+## [1.1.1]
+
+- Renames display name again.
