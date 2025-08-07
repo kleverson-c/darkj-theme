@@ -3,6 +3,10 @@
   "displayName": "DarkJ Theme",
   "description": "My personalized version of IntelliJ Darcula",
   "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kleverson-c/darkj-theme.git"
+  },
   "engines": {
     "vscode": "^1.102.0"
   },
