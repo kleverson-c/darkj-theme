@@ -18,7 +18,7 @@
       {
         "label": "DarkJ",
         "uiTheme": "vs-dark",
-        "path": "./themes/DarkJ-color-theme.json"
+        "path": "./themes/darkj-color-theme.json"
       }
     ]
   }
