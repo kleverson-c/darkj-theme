@@ -1,2 +1,2 @@
-# DarkJ-Theme
-Simple VSCode theme that mimicks a personal variation of Darcula theme for IntelliJ.
+# Darkula-J Theme
+Simple VSCode theme that is a personal variation of Darcula theme for IntelliJ.

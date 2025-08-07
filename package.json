@@ -1,11 +1,12 @@
 {
-  "name": "darkj-theme",
-  "displayName": "DarkulaJ Theme",
+  "name": "darkula-j-theme",
+  "displayName": "Darkula-J Theme",
   "description": "My personalized version of IntelliJ Darcula",
-  "version": "1.0.0",
+  "version": "1.1.0",
+  "icon": "icon.png",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kleverson-c/darkj-theme.git"
+    "url": "https://github.com/kleverson-c/darkula-j-theme.git"
   },
   "publisher": "kleverson-c",
   "engines": {
@@ -19,7 +20,7 @@
       {
         "label": "DarkJ",
         "uiTheme": "vs-dark",
-        "path": "./themes/darkj-color-theme.json"
+        "path": "./themes/darkula-j-color-theme.json"
       }
     ]
   }
